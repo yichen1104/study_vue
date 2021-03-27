@@ -5,6 +5,7 @@ import study1 from '../components/study1.vue'
 import study1_1  from '../components/study1-1.vue'
 import study2 from '../components/study2.vue'
 import study2_2 from '../components/study2-1.vue'
+import study3 from '../components/study3.vue'
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -38,6 +39,11 @@ export default new VueRouter({
     path: '/study2-1',
     name: 'study2-1',
     component: study2_2
+  },
+  {
+    path: '/study3',
+    name: 'study3',
+    component: study3
   }
 ]
 })
